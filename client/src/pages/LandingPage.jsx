@@ -32,7 +32,7 @@ const LandingPage = () => {
             <span className="text-[#4acd8d]">Patronage</span>
           </h2>
           <div className="flex items-center px-5">
-            <div className="border border-[#4acd8d] bg-slate-50 hover:bg-slate-800 hover:text-white hover:transition-all duration-700 rounded-[10px] inline-block">
+            <div className="border border-[#3da975] bg-slate-50 hover:bg-slate-800 hover:text-white hover:transition-all duration-700 rounded-[10px] inline-block">
               <button
                 className="text-gray text-[18px] font-semibold p-2"
                 onClick={() => {
@@ -67,28 +67,28 @@ const LandingPage = () => {
         </div>
         <div className="grid grid-cols-2 gap-8 max-w-2xl px-8 mt-8 md:mt-0 bg-[#13131a]">
           <div className="rounded-full overflow-hidden border border-[#4acd8d]">
-            <img
+            <img loading="lazy"
               src={logoImage1}
               alt="Image 1"
               className="w-full h-auto hover:rotate-12 transform origin-center transition-all duration-300"
             />
           </div>
           <div className="rounded-full overflow-hidden border border-[#4acd8d]">
-            <img
+            <img loading="lazy"
               src={logoImage2}
               alt="Image 2"
               className="w-full h-auto hover:rotate-12 transform origin-center transition-all duration-300"
             />
           </div>
           <div className="rounded-full overflow-hidden border border-[#4acd8d]">
-            <img
+            <img loading="lazy"
               src={logoImage3}
               alt="Image 3"
               className="w-full h-auto hover:rotate-12 transform origin-center transition-all duration-300"
             />
           </div>
           <div className="rounded-full overflow-hidden border border-[#4acd8d]">
-            <img
+            <img loading="lazy"
               src={logoImage4}
               alt="Image 4"
               className="w-full h-auto hover:rotate-12 transform origin-center transition-all duration-300"
